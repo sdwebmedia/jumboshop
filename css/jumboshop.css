@@ -1,0 +1,237 @@
+
+body{
+    font-family: 'Open Sans', sans-serif;
+    background: url("../img/striped_lens.png") #F7F7F9;
+}
+
+/*Custom Fonts */
+.jumbo{
+    font-family: 'Luckiest Guy', cursive;
+}
+
+.fs, .banner h2 {
+font-family: 'Codystar', cursive;
+font-size: 135%;
+}
+
+a:link, 
+a:hover, 
+a:visited, 
+a:active{
+    color:#000;    
+}
+
+/*Colors Schemes - text-color*/
+.primary-color,
+.primary-color a:link,
+.primary-color a:hover,
+.primary-color a:active,
+.primary-color a:visited
+{
+color: #ffd800  !important;
+}
+
+/*Colors Schemes - background*/
+.primary-background{
+    background: #ffd800;    
+}
+
+/*jumbo shop custom no radius*/
+.btn, 
+.form-control, 
+.thumbnail{border-radius: 0;}
+
+.master-background{
+    background: #000;
+    color: #fff;
+}
+
+header{    
+    padding: 15px 0;
+}
+
+header .jumbo{    
+    font-size: 235%;    
+}
+
+header .fs{    
+    font-size: 215%;
+}
+
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6{
+    font-weight: 300;
+}
+
+nav ul a{
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+nav ul a.small {
+padding-right: 0px;
+    padding-left: 0px;
+}
+
+nav ul{
+    text-transform: uppercase;
+    font-size: 120%;
+    margin: 0;
+}
+
+nav ul .small{
+    text-transform:none;
+}
+
+.badge {
+font-weight: 300;
+padding: 4px 5px 4px;
+border-radius: 0;
+font-size: 75%;
+background: #eee;
+color: #000;
+}
+
+nav .badge {
+padding:2px 5px 2px 4px;
+border-radius: 15px;
+}
+
+.search, .lead {        
+    margin: 10px 0;
+}
+
+.banner{
+    margin-top: 10px;
+}
+
+.banner h2{
+text-transform: uppercase;
+font-size: 320%;
+}
+
+.banner p{
+    margin-right: 20px;
+}
+
+.carousel-control {
+width: 36px;
+background: #000;
+top: auto;
+bottom: 50%;
+height: 36px;
+margin-bottom: -18px;
+}
+
+.carousel-control .glyphicon-chevron-right, 
+.carousel-control .glyphicon-chevron-left {
+background: #000;
+color: #FFD800;
+padding: 8px;
+width: 36px;
+position: static;
+}
+
+#slider .carousel-control .glyphicon-chevron-right{    
+background: #FFD800;
+color: #000;    
+}
+.right.carousel-control{
+    right: -10px;
+}
+.left.carousel-control{
+    left: -10px;
+}
+
+.banner .carousel-indicators{
+    bottom: 0;
+}
+
+.thumbnail img{
+    width: 100%;
+    margin:0;
+}
+
+.thumbnail:hover{
+    background: #000;
+    color: #fff;    
+}
+
+.thumbnail:hover .caption {
+ color: #fff;
+}
+                                
+.thumbnail h3 {
+    margin-top: 0;
+}
+
+.thumbnail h3.fs{
+    font-size: 235%;    
+}
+
+.thumbnail img{
+    border-bottom: 10px solid #ddd;
+}
+
+.thumbnail:hover img{
+    border-bottom: 10px solid #FFD800;    
+}
+
+footer{
+    margin-bottom: 30px;
+}
+
+footer .jumbo{
+    font-size: 150%;
+}
+
+
+
+
+/*jumbo shop custom buttons ----------------------------------------------------------*/
+
+.btn.btn-default:hover {
+    background: #fff;
+    border-color: #ccc ; 
+}
+
+.btn.btn-primary, 
+.btn.btn-primary:hover,
+.thumbnail:hover .btn.btn-inverse
+{
+ background: #FFD800 ;
+ color: #000;
+ border-color: #FFD800 ;  
+}
+
+.btn.btn-inverse, 
+.btn.btn-inverse:hover{
+ background: #000 ;
+ color: #FFD800;
+ border-color: #000 ;  
+}
+
+.thumbnail:hover 
+.btn-inverse, 
+.thumbnail:hover 
+.btn-inverse:hover {
+    background: #FFD800;
+    color: #000;
+    border-color: #FFD800;
+}
+
+.thumbnail{
+    position: relative;
+}
+.thumbnail .mini-info {
+    display: none;
+position: absolute;
+top: 0px;
+right: -156px;
+width: 160px;
+height: 30%;
+z-index: 5;
+padding: 10px;
+}
+.thumbnail:hover .mini-info {
+    display: block;
+}
