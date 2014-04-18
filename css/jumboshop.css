@@ -113,17 +113,19 @@ font-size: 320%;
     margin-right: 20px;
 }
 
-.carousel-control {
-width: 36px;
+a.carousel-control {
 background: #000;
 top: auto;
 bottom: 50%;
-height: 36px;
 margin-bottom: -18px;
+color: #FFF;
+font-size: 28px;
+padding: 0px 10px;
+width: auto;
 }
 
-.carousel-control .glyphicon-chevron-right, 
-.carousel-control .glyphicon-chevron-left {
+.carousel-control .fa-right, 
+.carousel-control .fa-left {
 background: #000;
 color: #FFD800;
 padding: 8px;
@@ -131,9 +133,8 @@ width: 36px;
 position: static;
 }
 
-#slider .carousel-control .glyphicon-chevron-right{    
+#slider .carousel-control.right{    
 background: #FFD800;
-color: #000;    
 }
 .right.carousel-control{
     right: -10px;
@@ -222,16 +223,21 @@ footer .jumbo{
 .thumbnail{
     position: relative;
 }
+
 .thumbnail .mini-info {
-    display: none;
+display: none;
 position: absolute;
 top: 0px;
-right: -156px;
-width: 160px;
-height: 30%;
+right: 0px;
+width: 56px;
 z-index: 5;
 padding: 10px;
+color: #CCC;
+height: 405px;
+overflow: hidden;
 }
+
+
 .thumbnail:hover .mini-info {
     display: block;
 }
