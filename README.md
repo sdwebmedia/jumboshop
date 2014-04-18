@@ -8,10 +8,10 @@ Demo - http://sdwebmedia.com/jumboshop/
 
 Credits
 
-jQuery
-Twitter Bootstarp
-Font Awesome
-Google Fonts
+jQuery<br>
+Twitter Bootstarp<br>
+Font Awesome<br>
+Google Fonts<br>
 
 Product Photos
 
